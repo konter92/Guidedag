@@ -13,12 +13,13 @@ button7 = KeyboardButton("Музеи")
 button8 = KeyboardButton("Детям")
 button9 = KeyboardButton("Бар")
 button10 = KeyboardButton("Кинотеатр")
+button11 = KeyboardButton("Театр")
 
 greet_kb = ReplyKeyboardMarkup(resize_keyboard=True)
 greet_kb.row(button1, button2, button3)
 greet_kb.row(button4, button5, button6)
 greet_kb.row(button7, button8, button9)
-greet_kb.row(button10)
+greet_kb.row(button10, button11)
 
 #клавиатура еды
 button_eda1 = KeyboardButton("Ресторан")
